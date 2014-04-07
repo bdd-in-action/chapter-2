@@ -1,15 +1,11 @@
 package com.bddinaction.chapter2.jbehave.steps;
 
-import com.bddinaction.chapter2.services.ItineraryService;
 import com.bddinaction.chapter2.services.TimetableService;
-import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.joda.time.LocalTime;
-
-import static org.fest.assertions.Assertions.assertThat;
 
 
 public class EstimatedArrivalTimeSteps {

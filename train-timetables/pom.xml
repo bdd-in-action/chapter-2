@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.200</thucydides.version>
-        <thucydides.jbehave.version>0.9.200</thucydides.jbehave.version>
+        <thucydides.version>0.9.235</thucydides.version>
+        <thucydides.jbehave.version>0.9.235</thucydides.jbehave.version>
         <gmavenVersion>1.4</gmavenVersion>
         <gmavenProviderSelection>2.0</gmavenProviderSelection>
         <groovyVersion>2.0.0</groovyVersion>

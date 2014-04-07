@@ -10,7 +10,3 @@ Given Western line trains from Emu Plains leave Parramatta
 for Town Hall at 7:58, 8:00, 8:02, 8:11, 8:14, 8:21, 8:31, 8:36
 When I want to travel from Parramatta to Town Hall at 8:00
 Then I should be told about the trains at: 8:02, 8:11, 8:14, 8:21
-
-
-
-
