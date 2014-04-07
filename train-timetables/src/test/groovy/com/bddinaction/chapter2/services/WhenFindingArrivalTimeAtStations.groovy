@@ -6,7 +6,7 @@ import spock.lang.Specification
 
 class WhenFindingArrivalTimeAtStations extends Specification {
 
-    def timetableService = new TimetableService()
+    def timetableService = new InMemoryTimetableService()
 
     def "should find the correct arrival times between two stations"() {
         given: "the Western line departing from Emu Plains"

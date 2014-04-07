@@ -9,7 +9,7 @@ class WhenFindingLinesThroughStations extends Specification {
     @Unroll("The line between #departure and #destination should leave #lineName from #lineDeparture")
     def "should find the correct lines between two stations"() {
         given:
-            TimetableService timetableService = new TimetableService()
+            InMemoryTimetableService timetableService = new InMemoryTimetableService()
         when:
             List<Line> lines = timetableService.findLinesThrough(departure, destination);
         then:

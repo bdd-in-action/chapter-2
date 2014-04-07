@@ -1,16 +1,18 @@
 package com.bddinaction.chapter2.jbehave.steps;
 
-import com.bddinaction.chapter2.services.TimetableService;
+import com.bddinaction.chapter2.services.InMemoryTimetableService;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.joda.time.LocalTime;
 
+import static org.fest.assertions.Assertions.assertThat;
+
 
 public class EstimatedArrivalTimeSteps {
 
-    TimetableService timetable = new TimetableService();
+    InMemoryTimetableService timetable = new InMemoryTimetableService();
 
     String departure;
     String destination;
@@ -38,6 +40,7 @@ public class EstimatedArrivalTimeSteps {
 
     @Then("the estimated arrival time should be <arrival-time>")
     public void thenTheEstimatedArrivalTimeShouldBe(@Named("arrival-time") LocalTime expectedArrivalTime) {
+        // TODO: Uncomment this to actually test the back-end service
         //assertThat(arrivalTime).isEqualTo(expectedArrivalTime);
     }
 }

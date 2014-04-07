@@ -6,19 +6,17 @@ import com.google.common.collect.Sets;
 import org.joda.time.LocalTime;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.TreeSet;
 
 import static ch.lambdaj.Lambda.filter;
-import static org.hamcrest.Matchers.greaterThan;
 
 public class ItineraryService {
 
     private static final int MAX_ARRIVAL_TIMES = 4;
-    private final TimetableService timetableService;
+    private final InMemoryTimetableService timetableService;
 
-    public ItineraryService(TimetableService timetableService) {
+    public ItineraryService(InMemoryTimetableService timetableService) {
         this.timetableService = timetableService;
     }
 
