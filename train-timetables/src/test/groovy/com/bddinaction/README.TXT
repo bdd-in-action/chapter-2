@@ -1,0 +1,1 @@
+Low level executable specifications written using Spock will go in packages underneath this directory. 
