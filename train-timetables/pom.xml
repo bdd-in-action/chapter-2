@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>2.0.72-SNAPSHOT</serenity.version>
+        <serenity.version>2.0.81</serenity.version>
         <serenity.cucumber.version>1.0.21</serenity.cucumber.version>
         <cucumber.version>4.2.0</cucumber.version>
         <webdriver.driver></webdriver.driver>
